@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13e7f78c6a.js" crossorigin="anonymous"></script>
+    <title>Utilizando API de noticias</title>
+</head>
+<body>
+    <!--aca empieza el header-->
+    <header id="leftMenu">
+        <a href="#" class="btn" id="botonX" onclick="cerrarMenu()">X</a>
+        <a href="#" class="logo">
+            <img src="noticias-hoy.png" class="logo-img">
+            <h2>Noticias Hoy</h2>
+        </a>
+        <nav class="leftNav">
+            <a href="#">Inicio</a>
+            <a href="#">Deportes</a>
+            <a href="#">Economia</a>
+            <a href="#">Politica</a>
+            <a href="#">Salud</a>
+        </nav>
+    </header>
+    <span class="menu" id="barras" onclick="abrirMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </span>
+    <!--aca va el contenido-->
+    <div class="banner_contenido">
+        <div id="contenido"></div>
+        <div class="banner">
+            <a href="https://presearch.com/signup?rid=928965" target="_blank">
+                <img src="https://assets.presearch.com/94972884-42a8-4988-93bc-aa4c42cdc895/images/rf/ban-3.jpg" title="Presearch" alt="presearch" />
+              </a>
+        </div>
+    </div>
+    <!--aca va el footer-->
+    <footer>
+        <div class="container-footer">
+            <div class="box-footer">
+                <div class="logo_footer">
+                    <img src="noticias-hoy.png">
+                </div>
+                <div class="terminos">
+                    <strong>Noticias Hoy</strong> es un sitio donde encontrar las noticias
+                    mas actuales tanto nacional como internacional. Explore las distintas
+                    secciones de nuestra pagina o tambien puede seguirnos a traves de
+                    nuestras redes sociales.
+                </div>
+            </div>
+            <div class="box-footer">
+                <h2>Categorias</h2>
+                <a href="#">Deportes</a>
+                <a href="#">Economia</a>
+                <a href="#">Politica</a>
+                <a href="#">Salud</a>
+            </div>
+            <div class="box-footer">
+                <h2>Medios</h2>
+                <a href="#">CNN</a>
+                <a href="#">TN</a>
+                <a href="#">BBC</a>
+                <a href="#">LA NACION</a>
+            </div>
+            <div class="box-footer">
+                <h2>Redes sociales</h2>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+                <a href="#"><i class="fa-brands fa-vimeo-v"></i>Vimeo</a>
+            </div>
+            <div class="box_copyright">
+                <hr>
+                <p>Todos los derechos reservados 2023 <b>Noticias Hoy</b></p>
+            </div>
+        </div>
+    </footer>
+    <!--aca va la seccion script-->
+    <script src="main.js"></script>
+</body>
+</html>
